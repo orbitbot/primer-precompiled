@@ -1,0 +1,64 @@
+.filter-list {
+  list-style-type: none;
+}
+
+.filter-list.small .filter-item {
+  padding: 4px 10px;
+  margin: 0 0 2px;
+  font-size: 12px;
+}
+
+.filter-list.pjax-active .filter-item {
+  color: #767676;
+  background-color: transparent;
+}
+
+.filter-list.pjax-active .filter-item.pjax-active {
+  color: #fff;
+  background-color: #4078c0;
+}
+
+.filter-item {
+  position: relative;
+  display: block;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #767676;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.filter-item:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.filter-item.selected {
+  color: #fff;
+  background-color: #4078c0;
+}
+
+.filter-item.selected .octicon-remove-close {
+  float: right;
+  opacity: 0.8;
+}
+
+.filter-item .count {
+  float: right;
+  font-weight: bold;
+}
+
+.filter-item .bar {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  bottom: 2px;
+  z-index: -1;
+  display: inline-block;
+  background-color: #f1f1f1;
+}

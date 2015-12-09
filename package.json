@@ -1,0 +1,23 @@
+{
+  "name": "primer-precompiled",
+  "version": "1.0.0",
+  "description": "Github's primer.css subsets pre-compiled to CSS",
+  "scripts": {
+    "start": "node compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitbot/primer-precompiled.git"
+  },
+  "author": "Patrik Johnson <patrik@zebros.fi>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orbitbot/primer-precompiled/issues"
+  },
+  "homepage": "https://github.com/orbitbot/primer-precompiled#readme",
+    "devDependencies": {
+    "glob": "^6.0.1",
+    "node-sass": "^3.4.2",
+    "primer-css": "2.5.0"
+  }
+}

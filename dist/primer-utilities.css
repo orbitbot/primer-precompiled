@@ -1,0 +1,151 @@
+.clearfix:before {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.centered {
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.danger {
+  color: #c00;
+}
+
+.mute {
+  color: #000;
+}
+
+.text-diff-added {
+  color: #55a532;
+}
+
+.text-diff-deleted {
+  color: #bd2c00;
+}
+
+.text-open,
+.text-success {
+  color: #6cc644;
+}
+
+.text-closed {
+  color: #bd2c00;
+}
+
+.text-reverted {
+  color: #bd2c00;
+}
+
+.text-merged {
+  color: #6e5494;
+}
+
+.text-renamed {
+  color: #fffa5d;
+}
+
+.text-pending {
+  color: #cea61b;
+}
+
+.text-error,
+.text-failure {
+  color: #bd2c00;
+}
+
+.muted-link {
+  color: #767676;
+}
+
+.muted-link:hover {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.warning {
+  padding: 0.5em;
+  margin-bottom: 0.8em;
+  font-weight: bold;
+  background-color: #fffccc;
+}
+
+.error_box {
+  padding: 1em;
+  font-weight: bold;
+  background-color: #ffebe8;
+  border: 1px solid #dd3c10;
+}
+
+.counter {
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  color: #666;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.flex-table {
+  display: table;
+}
+
+.flex-table-item {
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.flex-table-item-primary {
+  width: 99%;
+}
+
+.css-truncate.css-truncate-target,
+.css-truncate .css-truncate-target {
+  display: inline-block;
+  max-width: 125px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.css-truncate.expandable.zeroclipboard-is-hover .css-truncate-target, .css-truncate.expandable.zeroclipboard-is-hover.css-truncate-target,
+.css-truncate.expandable:hover .css-truncate-target, .css-truncate.expandable:hover.css-truncate-target {
+  max-width: 10000px !important;
+}

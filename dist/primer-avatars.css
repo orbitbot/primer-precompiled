@@ -1,0 +1,34 @@
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+.avatar-small {
+  border-radius: 2px;
+}
+
+.avatar-link {
+  float: left;
+  line-height: 1;
+}
+
+.avatar-group-item {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.avatar-parent-child {
+  position: relative;
+}
+
+.avatar-child {
+  position: absolute;
+  right: -15%;
+  bottom: -9%;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: -2px -2px 0 rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,56 @@
+.tabnav {
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabnav .counter {
+  margin-left: 5px;
+}
+
+.tabnav-tabs {
+  margin-bottom: -1px;
+}
+
+.tabnav-tab {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-bottom: 0;
+}
+
+.tabnav-tab.selected {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+  border-radius: 3px 3px 0 0;
+}
+
+.tabnav-tab:hover {
+  text-decoration: none;
+}
+
+.tabnav-extra {
+  display: inline-block;
+  padding-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+.tabnav-extra > .octicon {
+  margin-right: 2px;
+}
+
+a.tabnav-extra:hover {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.tabnav-btn {
+  margin-left: 10px;
+}

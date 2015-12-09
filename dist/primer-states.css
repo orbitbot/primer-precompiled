@@ -1,0 +1,28 @@
+.state {
+  display: inline-block;
+  padding: 4px 8px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #999;
+}
+
+.state-open,
+.state-proposed,
+.state-reopened {
+  background-color: #6cc644;
+}
+
+.state-merged {
+  background-color: #6e5494;
+}
+
+.state-closed {
+  background-color: #bd2c00;
+}
+
+.state-renamed {
+  background-color: #fffa5d;
+}

@@ -12,27 +12,27 @@ If you need more control of the generated css, you may prefer to compile Primer.
 <br>
 ## Css
 
-| file                    | Primer documentation                       |
-| ----------------------- | ------------------------------------------ |
-| primer-alerts.css       | http://primercss.io/alerts/                |
-| primer-avatars.css      | http://primercss.io/avatars/               |
-| primer-blankslate.css   | http://primercss.io/blankslate/            |
-| primer-buttons.css      | http://primercss.io/buttons/               |
-| primer-counter.css      | http://primercss.io/utilities/#counter     |
-| primer-filter-list.css  | http://primercss.io/nav/#filter-list       |
-| primer-flex-table.css   | http://primercss.io/utilities/#flex-table  |
-| primer-forms.css        | http://primercss.io/forms/                 |
-| primer-layout.css       | http://primercss.io/layout/                |
-| primer-menu.css         | http://primercss.io/nav/#menu              |
-| primer-navigation.css   | http://primercss.io/nav/                   |
-| primer-scaffolding.css  | http://primercss.io/scaffolding/           |
-| primer-states.css       | http://primercss.io/states/                |
-| primer-tabnav.css       | http://primercss.io/nav/#tabnav            |
-| primer-tooltips.css     | http://primercss.io/tooltips/              |
-| primer-truncate.css     | http://primercss.io/utilities/#truncation  |
-| primer-type.css         | http://primercss.io/type/                  |
-| primer-utilities.css    | http://primercss.io/utilities/             |
-| primer-utility.css      | various in http://primercss.io/utilities/  |
+| file                     | Primer documentation                       |
+|:------------------------ |:------------------------------------------ |
+| `primer-alerts.css`      | http://primercss.io/alerts/                |
+| `primer-avatars.css`     | http://primercss.io/avatars/               |
+| `primer-blankslate.css`  | http://primercss.io/blankslate/            |
+| `primer-buttons.css`     | http://primercss.io/buttons/               |
+| `primer-counter.css`     | http://primercss.io/utilities/#counter     |
+| `primer-filter-list.css` | http://primercss.io/nav/#filter-list       |
+| `primer-flex-table.css`  | http://primercss.io/utilities/#flex-table  |
+| `primer-forms.css`       | http://primercss.io/forms/                 |
+| `primer-layout.css`      | http://primercss.io/layout/                |
+| `primer-menu.css`        | http://primercss.io/nav/#menu              |
+| `primer-navigation.css`  | http://primercss.io/nav/                   |
+| `primer-scaffolding.css` | http://primercss.io/scaffolding/           |
+| `primer-states.css`      | http://primercss.io/states/                |
+| `primer-tabnav.css`      | http://primercss.io/nav/#tabnav            |
+| `primer-tooltips.css`    | http://primercss.io/tooltips/              |
+| `primer-truncate.css`    | http://primercss.io/utilities/#truncation  |
+| `primer-type.css`        | http://primercss.io/type/                  |
+| `primer-utilities.css`   | http://primercss.io/utilities/             |
+| `primer-utility.css`     | various in http://primercss.io/utilities/  |
 
 <br>
 ## Caveat Emptor
@@ -46,9 +46,9 @@ If you discover any problems with components, please file an issue and/or submit
 <br>
 ## Version tracking
 
-| Versions | primer-precompiled | Primer.css |
-| -------- | ------------------ | ---------- |
-|          | 1.0.0              | 2.5.0      |
+| Versions | primer-precompiled | Primer.css | 
+| -------- |------------------- | ---------- | 
+|          | 1.0.0              | 2.5.0      | 
 
 <br>
 ## License

@@ -15,7 +15,13 @@
     "url": "https://github.com/orbitbot/primer-precompiled/issues"
   },
   "homepage": "https://github.com/orbitbot/primer-precompiled#readme",
-    "devDependencies": {
+  "keywords": [
+    "primer",
+    "primer-css",
+    "primer-precompiled"
+  ],
+  "files": ["dist"],
+  "devDependencies": {
     "glob": "^6.0.1",
     "node-sass": "^3.4.2",
     "primer-css": "2.5.0"

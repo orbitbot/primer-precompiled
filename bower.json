@@ -1,0 +1,13 @@
+{
+  "name": "primer-precompiled",
+  "description": "Github's primer.css subsets pre-compiled to CSS",
+  "authors": [
+    "Patrik Johnson <patrik@zebros.fi>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/orbitbot/primer-precompiled",
+  "keywords": ["primer", "primer-css", "primer-precompiled"],
+  "ignore": [
+    "node_modules"
+  ]
+}

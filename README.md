@@ -10,6 +10,12 @@ source code files, groupings according to the documentation sections etc.
 If you need more control of the generated css, you may prefer to compile Primer.css yourself.
 
 <br>
+## Installation
+
+    $ bower install primer-precompiled --save
+    $ npm install primer-precompiled --save
+
+<br>
 ## Css
 
 | file                     | Primer documentation                       |

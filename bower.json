@@ -8,6 +8,10 @@
   "homepage": "https://github.com/orbitbot/primer-precompiled",
   "keywords": ["primer", "primer-css", "primer-precompiled"],
   "ignore": [
-    "node_modules"
+    ".gitignore",
+    "*.js",
+    "*.json",
+    "node_modules",
+    "scss"
   ]
 }

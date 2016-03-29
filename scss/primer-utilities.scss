@@ -1,12 +1,17 @@
 @import "../node_modules/primer-css/scss/variables";
 @import "../node_modules/primer-css/scss/mixins";
 
-// Basecoat
-@import "../node_modules/primer-css/scss/utility";
+// values are not defined anywhere in 2.7.0, assume base values
+$brand-gray:         $gray !default;
+$brand-blue:         $blue !default;
 
-// Components
-@import "../node_modules/primer-css/scss/counter";
-
-// Utilities
-@import "../node_modules/primer-css/scss/flex-table";
 @import "../node_modules/primer-css/scss/truncate";
+@import "../node_modules/primer-css/scss/counter";
+@import "../node_modules/primer-css/scss/flex-table";
+
+@import "../node_modules/primer-css/scss/utilities/border";
+@import "../node_modules/primer-css/scss/utilities/colors";
+@import "../node_modules/primer-css/scss/utilities/layout";
+@import "../node_modules/primer-css/scss/utilities/margin";
+@import "../node_modules/primer-css/scss/utilities/padding";
+@import "../node_modules/primer-css/scss/utilities/typography";

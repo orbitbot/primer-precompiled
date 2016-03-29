@@ -1,6 +1,6 @@
 {
   "name": "primer-precompiled",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Github's primer.css subsets pre-compiled to CSS",
   "scripts": {
     "start": "node compile.js"
@@ -20,10 +20,12 @@
     "primer-css",
     "primer-precompiled"
   ],
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "glob": "^6.0.1",
-    "node-sass": "^3.4.2",
-    "primer-css": "2.5.0"
+    "glob": "7.0.3",
+    "node-sass": "3.4.2",
+    "primer-css": "2.7.0"
   }
 }

@@ -48,21 +48,9 @@ blockquote {
   color: #555;
 }
 
-.text-muted {
-  color: #767676;
-}
-
-.text-danger {
-  color: #bd2c00;
-}
-
 .text-emphasized {
   font-weight: bold;
   color: #333;
-}
-
-.text-small {
-  font-size: 12px;
 }
 
 ul,

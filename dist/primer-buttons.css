@@ -9,11 +9,11 @@
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
+  user-select: none;
   background-color: #eee;
   background-image: linear-gradient(#fcfcfc, #eee);
   border: 1px solid #d5d5d5;
   border-radius: 3px;
-  user-select: none;
   -webkit-appearance: none;
 }
 
@@ -198,10 +198,11 @@
   line-height: 0;
 }
 
-.hidden-text-expander a {
+.hidden-text-expander a,
+.ellipsis-expander {
   display: inline-block;
   height: 12px;
-  padding: 0 5px;
+  padding: 0 5px 5px;
   font-size: 12px;
   font-weight: bold;
   line-height: 6px;
@@ -210,14 +211,17 @@
   vertical-align: middle;
   background: #ddd;
   border-radius: 1px;
+  border: 0;
 }
 
-.hidden-text-expander a:hover {
+.hidden-text-expander a:hover,
+.ellipsis-expander:hover {
   text-decoration: none;
   background-color: #ccc;
 }
 
-.hidden-text-expander a:active {
+.hidden-text-expander a:active,
+.ellipsis-expander:active {
   color: #fff;
   background-color: #4183c4;
 }
@@ -257,12 +261,12 @@
   vertical-align: middle;
 }
 
-.btn-group:before {
+.btn-group::before {
   display: table;
   content: "";
 }
 
-.btn-group:after {
+.btn-group::after {
   display: table;
   clear: both;
   content: "";
@@ -299,26 +303,26 @@
   margin-left: -1px;
 }
 
-.btn-group .btn + .button_to,
-.btn-group .button_to + .btn,
-.btn-group .button_to + .button_to {
+.btn-group .btn + .btn-form,
+.btn-group .btn-form + .btn,
+.btn-group .btn-form + .btn-form {
   margin-left: -1px;
 }
 
-.btn-group .button_to {
+.btn-group .btn-form {
   float: left;
 }
 
-.btn-group .button_to .btn {
+.btn-group .btn-form .btn {
   border-radius: 0;
 }
 
-.btn-group .button_to:first-child .btn {
+.btn-group .btn-form:first-child .btn {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
 
-.btn-group .button_to:last-child .btn {
+.btn-group .btn-form:last-child .btn {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
@@ -335,9 +339,9 @@
   color: #4078c0;
   white-space: nowrap;
   cursor: pointer;
+  user-select: none;
   background-color: transparent;
   border: 0;
-  user-select: none;
   -webkit-appearance: none;
 }
 

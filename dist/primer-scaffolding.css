@@ -427,14 +427,14 @@ hr,
   border-bottom: 1px solid #ddd;
 }
 
-hr:before,
-.rule:before {
+hr::before,
+.rule::before {
   display: table;
   content: "";
 }
 
-hr:after,
-.rule:after {
+hr::after,
+.rule::after {
   display: table;
   clear: both;
   content: "";

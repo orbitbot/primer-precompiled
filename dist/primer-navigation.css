@@ -16,11 +16,11 @@
 
 .menu-item:first-child {
   border-top: 0;
-  border-top-right-radius: 2px;
   border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
-.menu-item:first-child:before {
+.menu-item:first-child::before {
   border-top-left-radius: 2px;
 }
 
@@ -30,7 +30,7 @@
   border-bottom-left-radius: 2px;
 }
 
-.menu-item:last-child:before {
+.menu-item:last-child::before {
   border-bottom-left-radius: 2px;
 }
 
@@ -46,19 +46,19 @@
   background-color: #fff;
 }
 
-.menu-item.selected:before {
+.menu-item.selected::before {
   position: absolute;
   top: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 2px;
   content: "";
   background-color: #d26911;
 }
 
 .menu-item .octicon {
-  margin-right: 5px;
   width: 16px;
+  margin-right: 5px;
   color: #333;
   text-align: center;
 }
@@ -100,14 +100,14 @@
 }
 
 .menu-heading:first-child {
-  border-top-right-radius: 2px;
   border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 .menu-heading:last-child {
+  border-bottom: 0;
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
-  border-bottom: 0;
 }
 
 .tabnav {
@@ -131,6 +131,7 @@
   line-height: 20px;
   color: #666;
   text-decoration: none;
+  background-color: transparent;
   border: 1px solid transparent;
   border-bottom: 0;
 }
@@ -142,7 +143,7 @@
   border-radius: 3px 3px 0 0;
 }
 
-.tabnav-tab:hover {
+.tabnav-tab:hover, .tabnav-tab:focus {
   text-decoration: none;
 }
 

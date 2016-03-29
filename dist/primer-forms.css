@@ -174,14 +174,14 @@ dl.form > dd h4.is-error {
 }
 
 dl.form > dd h4.is-success {
-  color: #6cc644;
+  color: #55a532;
 }
 
 dl.form > dd h4 + p.note {
   margin-top: 0;
 }
 
-dl.form.required > dt > label:after {
+dl.form.required > dt > label::after {
   padding-left: 5px;
   color: #9f1006;
   content: "*";
@@ -216,46 +216,46 @@ dl.form.successful .success {
 dl.form.warn dd.warning,
 dl.form.warn dd.error, dl.form.errored dd.warning,
 dl.form.errored dd.error {
-  display: inline-block;
   position: absolute;
-  max-width: 450px;
   z-index: 10;
-  margin: 2px 0 0;
+  display: inline-block;
+  max-width: 450px;
   padding: 5px 8px;
+  margin: 2px 0 0;
   font-size: 13px;
   font-weight: normal;
   border-radius: 3px;
 }
 
-dl.form.warn dd.warning:after,
-dl.form.warn dd.warning:before,
-dl.form.warn dd.error:after,
-dl.form.warn dd.error:before, dl.form.errored dd.warning:after,
-dl.form.errored dd.warning:before,
-dl.form.errored dd.error:after,
-dl.form.errored dd.error:before {
-  bottom: 100%;
-  z-index: 15;
-  left: 10px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
+dl.form.warn dd.warning::after,
+dl.form.warn dd.warning::before,
+dl.form.warn dd.error::after,
+dl.form.warn dd.error::before, dl.form.errored dd.warning::after,
+dl.form.errored dd.warning::before,
+dl.form.errored dd.error::after,
+dl.form.errored dd.error::before {
   position: absolute;
+  bottom: 100%;
+  left: 10px;
+  z-index: 15;
+  width: 0;
+  height: 0;
   pointer-events: none;
+  content: " ";
+  border: solid transparent;
 }
 
-dl.form.warn dd.warning:after,
-dl.form.warn dd.error:after, dl.form.errored dd.warning:after,
-dl.form.errored dd.error:after {
+dl.form.warn dd.warning::after,
+dl.form.warn dd.error::after, dl.form.errored dd.warning::after,
+dl.form.errored dd.error::after {
   border-width: 5px;
 }
 
-dl.form.warn dd.warning:before,
-dl.form.warn dd.error:before, dl.form.errored dd.warning:before,
-dl.form.errored dd.error:before {
-  border-width: 6px;
+dl.form.warn dd.warning::before,
+dl.form.warn dd.error::before, dl.form.errored dd.warning::before,
+dl.form.errored dd.error::before {
   margin-left: -1px;
+  border-width: 6px;
 }
 
 dl.form.warn dd.warning {
@@ -264,11 +264,11 @@ dl.form.warn dd.warning {
   border: 1px solid #e7ce94;
 }
 
-dl.form.warn dd.warning:after {
+dl.form.warn dd.warning::after {
   border-bottom-color: #ffe5a7;
 }
 
-dl.form.warn dd.warning:before {
+dl.form.warn dd.warning::before {
   border-bottom-color: #cdb683;
 }
 
@@ -277,17 +277,17 @@ dl.form.errored > dt label {
 }
 
 dl.form.errored dd.error {
+  font-size: 13px;
   color: #fff;
   background-color: #bf1515;
   border-color: #911;
-  font-size: 13px;
 }
 
-dl.form.errored dd.error:after {
+dl.form.errored dd.error::after {
   border-bottom-color: #bf1515;
 }
 
-dl.form.errored dd.error:before {
+dl.form.errored dd.error::before {
   border-bottom-color: #911;
 }
 
@@ -337,12 +337,12 @@ dl.form.errored dd.error:before {
   margin: 15px 0;
 }
 
-.hfields:before {
+.hfields::before {
   display: table;
   content: "";
 }
 
-.hfields:after {
+.hfields::after {
   display: table;
   clear: both;
   content: "";
@@ -430,12 +430,12 @@ input::-webkit-inner-spin-button {
   margin-left: -1px;
 }
 
-.form-actions:before {
+.form-actions::before {
   display: table;
   content: "";
 }
 
-.form-actions:after {
+.form-actions::after {
   display: table;
   clear: both;
   content: "";
@@ -470,24 +470,6 @@ input::-webkit-inner-spin-button {
 
 .form-warning a {
   font-weight: bold;
-}
-
-.status-indicator {
-  font: normal normal 16px / 1 "octicons";
-  display: inline-block;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
-  margin-left: 5px;
-}
-
-.status-indicator-success:before {
-  color: #6cc644;
-  content: "\f03a";
-}
-
-.status-indicator-failed:before {
-  color: #bd2c00;
-  content: "\f02d";
 }
 
 .select {

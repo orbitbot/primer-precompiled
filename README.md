@@ -38,7 +38,6 @@ If you need more control of the generated css, you may prefer to compile Primer.
 | `primer-truncate.css`    | http://primercss.io/utilities/#truncation  |
 | `primer-type.css`        | http://primercss.io/type/                  |
 | `primer-utilities.css`   | http://primercss.io/utilities/             |
-| `primer-utility.css`     | various in http://primercss.io/utilities/  |
 
 <br>
 ## Caveat Emptor
@@ -54,6 +53,7 @@ If you discover any problems with components, please file an issue and/or submit
 
 | Versions | primer-precompiled | Primer.css | 
 | -------- |------------------- | ---------- | 
+|          | 1.1.0              | 2.7.0      | 
 |          | 1.0.0              | 2.5.0      | 
 
 <br>
